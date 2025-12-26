@@ -1,6 +1,14 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+
   font-size: 16px;
   color: #000000;
+  
+  background-color: #ffff;
 }
 
 .header-flex-container {
