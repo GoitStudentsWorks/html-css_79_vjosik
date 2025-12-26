@@ -1,0 +1,111 @@
+.about {
+  padding: 56px 0;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.about-media {
+  flex-shrink: 0;
+}
+
+.about-img {
+  display: block;
+  width: 100%;
+  height: 335px;
+}
+
+.about-title {
+  margin-bottom: 24px;
+  font-size: 36px;
+  line-height: 1.2;
+  font-family: 'Sora', sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.about-text {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Mulish', sans-serif;
+}
+
+.about-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-item {
+  position: relative;
+  padding-left: 32px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.about-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-item-leaf::before {
+  background-image: url('../images/icons/leaf.svg');
+}
+
+.about-item-donate::before {
+  background-image: url('../images/icons/donate-heart.svg');
+}
+
+.about-item-book::before {
+  background-image: url('../images/icons/book.svg');
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    padding: 112px 0;
+  }
+
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-img {
+    width: 704px;
+    height: 456px;
+  }
+
+  .about-title {
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about {
+    padding: 112px 0;
+  }
+
+  .about-img {
+     width: 640px;
+    height: 456px;
+  }
+
+  .about-title {
+    font-size: 48px;
+  }
+
+  .about-container {
+    flex-direction: row;
+  }
+}
