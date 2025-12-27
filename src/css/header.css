@@ -2,12 +2,12 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  right: 0;
   z-index: 999;
 
   font-size: 16px;
   color: #000000;
-  
+
   background-color: #ffff;
 }
 
@@ -23,6 +23,10 @@
 
 .nav-menu-list {
   display: none;
+}
+
+.nav-menu-link {
+  cursor: pointer;
 }
 
 .nav-menu-link:hover,
@@ -69,6 +73,8 @@
   background-color: transparent;
   border: none;
   margin-left: auto;
+
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
@@ -84,6 +90,7 @@
   background-color: #ccc16e;
 
   font-weight: 500;
+  cursor: pointer;
 }
 
 .btn-link:hover,
