@@ -20,17 +20,10 @@
 
 .about-title {
   margin-bottom: 24px;
-  font-size: 36px;
-  line-height: 1.2;
-  font-family: 'Sora', sans-serif;
-  letter-spacing: -0.01em;
 }
 
 .about-text {
   margin-bottom: 24px;
-  font-size: 18px;
-  line-height: 1.5;
-  font-family: 'Mulish', sans-serif;
 }
 
 .about-list {
@@ -42,8 +35,6 @@
 .about-item {
   position: relative;
   padding-left: 32px;
-  font-size: 18px;
-  line-height: 1.5;
   font-weight: 700;
 }
 
@@ -74,20 +65,9 @@
     padding: 112px 0;
   }
 
-  .about-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .about-img {
     width: 704px;
     height: 456px;
-  }
-
-  .about-title {
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: -0.01em;
   }
 }
 
@@ -99,10 +79,6 @@
   .about-img {
      width: 640px;
     height: 456px;
-  }
-
-  .about-title {
-    font-size: 48px;
   }
 
   .about-container {
