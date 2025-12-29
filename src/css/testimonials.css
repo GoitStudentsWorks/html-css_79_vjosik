@@ -61,7 +61,7 @@ ul {
     gap: 24px;
   }
   .testimonial-list > li {
-    height: 260px;
+    min-height: 260px;
   }
   .testimonial-list > li:nth-child(4) {
     width: 248px;
