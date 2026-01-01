@@ -49,15 +49,15 @@
 }
 
 .about-item-leaf::before {
-  background-image: url('../images/icons/leaf.svg');
+  background-image: url('/assets/images/icons/leaf.svg');
 }
 
 .about-item-donate::before {
-  background-image: url('../images/icons/donate-heart.svg');
+  background-image: url('/assets/images/icons/donate-heart.svg');
 }
 
 .about-item-book::before {
-  background-image: url('../images/icons/book.svg');
+  background-image: url('/assets/images/icons/book.svg');
 }
 
 @media screen and (min-width: 768px) {
@@ -77,7 +77,7 @@
   }
 
   .about-img {
-     width: 640px;
+    width: 640px;
     height: 456px;
   }
 
