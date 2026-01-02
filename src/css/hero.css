@@ -1,3 +1,6 @@
+.hero-section {
+  padding-top: 72px;
+}
 .hero-container {
   background-color: #d8d8d8;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -6,7 +9,7 @@
   background-size: cover;
   background-position: center;
 
-  padding-top: 232px;
+  padding-top: 160px;
   padding-bottom: 152px;
 }
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -17,7 +20,7 @@
 }
 @media only screen and (min-width: 768px) {
   .hero-container {
-    padding-top: 232px;
+    padding-top: 160px;
     padding-bottom: 435px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url('../images/background-img/background-img-tb.jpg');
@@ -30,7 +33,7 @@
 }
 @media only screen and (min-width: 1440px) {
   .hero-container {
-    padding-top: 296px;
+    padding-top: 224px;
     padding-bottom: 360px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url('../images/background-img/background-img-dt.jpg');
