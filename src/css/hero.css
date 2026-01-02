@@ -6,7 +6,7 @@
   background-size: cover;
   background-position: center;
 
-  padding-top: 160px;
+  padding-top: 232px;
   padding-bottom: 152px;
 }
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -17,7 +17,7 @@
 }
 @media only screen and (min-width: 768px) {
   .hero-container {
-    padding-top: 160px;
+    padding-top: 232px;
     padding-bottom: 435px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url('../images/background-img/background-img-tb.jpg');
@@ -30,7 +30,7 @@
 }
 @media only screen and (min-width: 1440px) {
   .hero-container {
-    padding-top: 224px;
+    padding-top: 296px;
     padding-bottom: 360px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url('../images/background-img/background-img-dt.jpg');
@@ -79,6 +79,7 @@
 }
 .hero-btn-link {
   display: inline-block;
+  font-size: 16px;
   min-width: 335px;
   padding: 6px 0;
   text-align: center;
