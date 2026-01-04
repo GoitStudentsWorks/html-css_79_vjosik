@@ -54,17 +54,32 @@
 }
 
 .mobile-link {
+  position: relative;
   cursor: pointer;
-  transition: color 0.3s ease-in, text-decoration 0.3s ease-in;
+  transition: color 0.3s ease-in;
 }
 
-.mobile-link:hover,
-.mobile-link:focus {
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
+.mobile-item .mobile-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in;
 }
 
-.mobile-link:active {
+.mobile-item .mobile-link:focus-visible::after,
+.mobile-item .mobile-link:active::after,
+.mobile-item .mobile-link.clicked::after {
+  transform: scaleX(1);
+}
+
+.mobile-item .mobile-link:active {
   color: #8668c7;
 }
 
