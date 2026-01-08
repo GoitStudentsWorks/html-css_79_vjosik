@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/handmade_jewelry/",
+    "build": "vite build --base=/html-css_79_vjosik/",
     "preview": "vite preview"
   },
   "devDependencies": {
